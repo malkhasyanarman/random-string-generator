@@ -1,9 +1,10 @@
 spring:
   kafka:
     bootstrap-servers: 'localhost:9092'
+    topic: 'wordTopic'
 
 server:
   port: 8090
 
 schedule:
-  interval: 1
+  interval: 1000
